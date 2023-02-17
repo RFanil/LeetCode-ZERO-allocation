@@ -68,6 +68,7 @@ namespace LeetCode.Easy
             return Math.Max(maxLength, currentLength);
         }
 
+        // MY OWN SOLUTION WITH ZERO ALLOCATION
         [Benchmark]
         [Arguments(str)]
         public int InvokeInStack(string str)
