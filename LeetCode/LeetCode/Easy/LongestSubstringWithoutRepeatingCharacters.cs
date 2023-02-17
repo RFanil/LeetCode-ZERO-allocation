@@ -8,16 +8,6 @@ namespace LeetCode.Easy
     public class LongestSubstringWithoutRepeatingCharacters
     {
         private const string str = "As already explained in the previous article, managed pointers have their well-justified limitations – especially in that they are not allowed to appear on the Managed Heap (as a field of reference type or just by boxing). However, for some scenarios, it would be really nice to have a type that contains a managed pointer. The main motivation behind such type is Span<T> – which should be able to represent references “inside” objects (interior pointers), stack address or even unmanaged memory.";
-        /*
-         * a 0
-         * b 1
-         * c 2
-         * a 3
-         * b 4
-         * c 5
-         * b 6
-         * b 7
-         */
 
         // One of the best RUNTIME submissions in LeetCode
         // 0.3% of solutions used 50 ms of RUNTIME
